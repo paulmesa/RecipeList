@@ -28,6 +28,8 @@ In terms of design, I opted to work only with the large image which could be a p
 
 Additionally, I opted not to support iOS 16 as it is lacking some SwiftUI APIs that helps simplify some views. These APIs could be replaced with alternate solutions though if this were a strict requirement.
 
+ADD NOTE ABOUT FAILING ALL RECIPES FOR ONE BAD PIECE OF DATA
+
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
 
 The weakest part of the project is probably the ui design or error logging. I do believe the underlying logic is built in a way that would easily be extended to support more specific and interesting designs. Errors are currently communicated via print statements which are not ideal for a production application and should be replaced with a logger so more interesting analysis can be done off client should errors arise.
