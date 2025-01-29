@@ -1,5 +1,17 @@
 ### Summary: Include screen shots or a video of your app highlighting its features
 
+## Happy Path
+
+## Recipes fail to load or error when loading
+![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 46 49](https://github.com/user-attachments/assets/1a28ea0f-f8fd-433e-8ebf-7f3ce270d568)
+
+## Loading state for images
+![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 46 00](https://github.com/user-attachments/assets/541eba2c-f6f7-4b81-810f-8ef869358132)
+
+## Failure state for images
+![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 45 44](https://github.com/user-attachments/assets/350d7798-7c5d-4e2e-b853-637ad007f0eb)
+
+
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
 I prioritized testability and failure cases. Testability and subsequently actually testing said feature provides a baseline level of confidence that something will behave as expected when users interact with it. Also as a user, it can be incredibly annoying when something doesn't work as anticipated and there is not a means to recovery. This can detract from the overall user experience and ultimately cause users to leave. I believe it's important to provide not only a great happy path but also pay attention and implement sad and recovery paths.
