@@ -14,19 +14,13 @@
 			remoteGlobalIDString = 96982B9E2D488A81002878FE;
 			remoteInfo = RecipeList;
 		};
-		96982BBA2D488A82002878FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96982B972D488A81002878FE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96982B9E2D488A81002878FE;
-			remoteInfo = RecipeList;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9696D57A2D4A8C8C00250DE1 /* RecipeList.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = RecipeList.xctestplan; sourceTree = "<group>"; };
 		96982B9F2D488A81002878FE /* RecipeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96982BAF2D488A82002878FE /* RecipeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96982BB92D488A82002878FE /* RecipeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96982C082D4927AF002878FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +32,6 @@
 		96982BB22D488A82002878FE /* RecipeListTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecipeListTests;
-			sourceTree = "<group>";
-		};
-		96982BBC2D488A82002878FE /* RecipeListUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecipeListUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,22 +51,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96982BB62D488A82002878FE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		96982B962D488A81002878FE = {
 			isa = PBXGroup;
 			children = (
+				9696D57A2D4A8C8C00250DE1 /* RecipeList.xctestplan */,
+				96982C082D4927AF002878FE /* README.md */,
 				96982BA12D488A81002878FE /* RecipeList */,
 				96982BB22D488A82002878FE /* RecipeListTests */,
-				96982BBC2D488A82002878FE /* RecipeListUITests */,
 				96982BA02D488A81002878FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +70,6 @@
 			children = (
 				96982B9F2D488A81002878FE /* RecipeList.app */,
 				96982BAF2D488A82002878FE /* RecipeListTests.xctest */,
-				96982BB92D488A82002878FE /* RecipeListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +122,6 @@
 			productReference = 96982BAF2D488A82002878FE /* RecipeListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96982BB82D488A82002878FE /* RecipeListUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96982BC92D488A82002878FE /* Build configuration list for PBXNativeTarget "RecipeListUITests" */;
-			buildPhases = (
-				96982BB52D488A82002878FE /* Sources */,
-				96982BB62D488A82002878FE /* Frameworks */,
-				96982BB72D488A82002878FE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96982BBB2D488A82002878FE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				96982BBC2D488A82002878FE /* RecipeListUITests */,
-			);
-			name = RecipeListUITests;
-			packageProductDependencies = (
-			);
-			productName = RecipeListUITests;
-			productReference = 96982BB92D488A82002878FE /* RecipeListUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +136,6 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					96982BAE2D488A82002878FE = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 96982B9E2D488A81002878FE;
-					};
-					96982BB82D488A82002878FE = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 96982B9E2D488A81002878FE;
 					};
@@ -202,7 +157,6 @@
 			targets = (
 				96982B9E2D488A81002878FE /* RecipeList */,
 				96982BAE2D488A82002878FE /* RecipeListTests */,
-				96982BB82D488A82002878FE /* RecipeListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +170,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		96982BAD2D488A82002878FE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96982BB72D488A82002878FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +193,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96982BB52D488A82002878FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +200,6 @@
 			isa = PBXTargetDependency;
 			target = 96982B9E2D488A81002878FE /* RecipeList */;
 			targetProxy = 96982BB02D488A82002878FE /* PBXContainerItemProxy */;
-		};
-		96982BBB2D488A82002878FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96982B9E2D488A81002878FE /* RecipeList */;
-			targetProxy = 96982BBA2D488A82002878FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -403,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,38 +417,6 @@
 			};
 			name = Release;
 		};
-		96982BCA2D488A82002878FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulmesa.RecipeListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RecipeList;
-			};
-			name = Debug;
-		};
-		96982BCB2D488A82002878FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.paulmesa.RecipeListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RecipeList;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,15 +443,6 @@
 			buildConfigurations = (
 				96982BC72D488A82002878FE /* Debug */,
 				96982BC82D488A82002878FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96982BC92D488A82002878FE /* Build configuration list for PBXNativeTarget "RecipeListUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96982BCA2D488A82002878FE /* Debug */,
-				96982BCB2D488A82002878FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
