@@ -36,7 +36,7 @@ An additional improvement would be to handle decoding failures when only one or 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
 
-The weakest part of the project is probably the ui design or error logging. I do believe the underlying logic is built in a way that would easily be extended to support more specific and interesting designs though. Errors are currently communicated via print statements which are not ideal for a production application and should be replaced with a logger so more interesting analysis can be done off client when errors arise.
+The weakest part of the project is probably the ui design or error logging. I do believe the underlying logic is built in a way that would easily be extended to support more specific and interesting designs though. The launch animation could also be improved upon. Errors are currently communicated via print statements which are not ideal for a production application and should be replaced with a logger so more interesting analysis can be done off client when errors arise. 
 
 The caching is also somewhat rudimentary and could be more sophisticated. A current possibility is that files will be left over until they are cleaned up by the system since they are in the caches directory. A better approach would be to clear files out on a regular cadence. 
 
