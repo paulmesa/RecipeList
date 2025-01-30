@@ -13,7 +13,6 @@ protocol PersistenceProtocol: Actor {
 }
 
 actor DiskPersistence: PersistenceProtocol {
-  
   struct Entry: Codable {
     let data: Data
     let expirationDate: Date

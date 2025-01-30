@@ -8,7 +8,6 @@
 import Foundation
 
 struct FileReader {
-
   enum ReaderError: Error {
     case notFound
     case noData
