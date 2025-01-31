@@ -6,13 +6,13 @@ https://github.com/user-attachments/assets/6d798773-b3ec-45ad-bf82-da740423aae9
 #### Refresh Recipes
 https://github.com/user-attachments/assets/efb9775b-674f-451a-8c23-bc01bbf8047e
 
-#### Recipes fail to load or error when loading
+#### Failure state for images
 ![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 46 49](https://github.com/user-attachments/assets/1a28ea0f-f8fd-433e-8ebf-7f3ce270d568)
 
 #### Loading state for images
 ![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 46 00](https://github.com/user-attachments/assets/541eba2c-f6f7-4b81-810f-8ef869358132)
 
-#### Failure state for images
+#### Recipes fail to load or error when loading
 ![Simulator Screenshot - iPhone 16 Pro - 2025-01-29 at 07 45 44](https://github.com/user-attachments/assets/350d7798-7c5d-4e2e-b853-637ad007f0eb)
 
 
